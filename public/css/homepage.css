@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+
+    min-height: 100vh;
+}
+
+.bodySection {
+    width: 100vw;
+}
+
+@font-face {
+    font-family: gotham;
+    src: url(fonts/GOTHAM-BLACK.TTF);
+}
+
+@font-face {
+    font-family: hammersmith;
+    src: url(fonts/HammersmithOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: neoSansBlack;
+    src: url(fonts/NeoSansBlack.otf);
+}
+
+@font-face {
+    font-family: neoSans;
+    src: url(fonts/NeoSansegular.otf);
+}
