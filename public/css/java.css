@@ -20,6 +20,10 @@
     justify-content: space-around;
 }
 
+#widcwdjnwqd1 .iefhweifwefh {
+    aspect-ratio: 3/4;
+}
+
 .wef28fh2 {
     flex: 1;
     max-width: 25%;
@@ -30,9 +34,8 @@
 }
 
 .iefhweifwefh {
-    flex: 1;
     max-width: 100%;
-    aspect-ratio: 1/2;
+    aspect-ratio: 2/3;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -43,10 +46,6 @@
     object-fit: cover;
 }
 
-.hgf8f {
-    flex: 1;
-}
-
 .hgf8f :nth-child(1) {
     font-family: neoSansBlack;
     font-size: 1.2em !important;
@@ -55,6 +54,7 @@
 #javarant {
     margin-top: 5%;
     font-size: 1.2em;
+    letter-spacing: 2px;
     
     display: flex;
     justify-content: space-around;
@@ -63,4 +63,5 @@
 
 #somuchjavatext {
     flex: 2;
+    letter-spacing: 2px;
 }
