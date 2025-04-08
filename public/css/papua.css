@@ -1,0 +1,45 @@
+#papuaSection {
+    background-color: var(--darkBlack);
+    color: var(--brightWhite);
+    padding: 5%;
+    font-family: neoSans;
+    letter-spacing: 0.1em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#papuaSection h1 {
+    font-size: 2em;
+}
+
+.papuaTwoParts {
+    margin-top: 5%;
+    overflow: hidden;
+
+    display: flex;
+    min-width: none;
+    gap: 5%;
+    align-items: center;
+}
+
+.papuaImagePart {
+    flex: 1;
+}
+
+.papuaImagePart img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+.papuaImagePart h3 {
+    letter-spacing: 0.2em;
+}
+
+.papuaRantPart {
+    flex: 1;
+    font-size: 1.3em;
+    line-height: 1.1;
+}
