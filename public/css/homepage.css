@@ -3,7 +3,8 @@
     min-width: 0; /* Because flex items do not shrink by default*/
     min-height: 0; /* overflow hidden is not included because it breaks a lot of things idk */
 
-    --secondHalfBackground: rgb(35, 31, 32);
+    --darkBlack: rgb(35, 31, 32);
+    --brightWhite: rgb(233, 233, 233);
 }
 
 body {
@@ -40,11 +41,16 @@ body {
 }
 
 @font-face {
-    font-family: neoSansBlack;
+    font-family: neoSansBlack; /* Not used meh*/
     src: url(fonts/NeoSansBlack.otf);
 }
 
 @font-face {
     font-family: neoSans;
     src: url(fonts/NeoSansegular.otf);
+}
+
+@font-face {
+    font-family: neoSansUltra; /* ultra bold apparently */
+    src: url(fonts/NeoSansUltra.otf);
 }

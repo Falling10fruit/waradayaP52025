@@ -1,5 +1,5 @@
 #tablesSection {
-    background-color: rgb(35, 31, 32);
+    background-color: var(--darkBlack);
     color: white;
     padding: 5%;
     display: flex;
