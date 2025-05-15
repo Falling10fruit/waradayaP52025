@@ -1,0 +1,31 @@
+@media only screen and (max-width: 700px) {
+    #widcwdjnwqd1 {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 5vw;
+    }
+
+    .wef28fh2 {
+        max-width: 100% !important;
+    }
+
+    #widcwdjnwqd1 .mobileOnly {
+        display: flex;
+        align-items: center;
+    }
+
+    #widcwdjnwqd1 > .mobileOnly + .mobileOnly {
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    #widcwdjnwqd1 .swathesofjavatext {
+        width: 100% !important;
+        font-size: 3vw;
+    }
+
+    #widcwdjnwqd1 .wef28fh2:last-child {
+        display: none;
+    }
+}
