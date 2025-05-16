@@ -28,4 +28,15 @@
     #widcwdjnwqd1 .wef28fh2:last-child {
         display: none;
     }
+
+    #javarant {
+        font-size: 4vw;
+
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #javarant .mobileOnly {
+        grid-column: 1 / span 2;
+    }
 }
