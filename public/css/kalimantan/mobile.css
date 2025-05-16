@@ -1,0 +1,36 @@
+@media only screen and (max-width: 700px) {
+    #alreadyintokalimantanrant {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #alreadyintokalimantanrant .kalimantanDisplay {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    #kalimantanGallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #kalimantanGallery .kalimantanDisplay {
+        max-width: 100%;
+    }
+
+    #firstKalimantanDisplay {
+        grid-row: 1 / span 1;
+        grid-column: 1 / span 1;
+    }
+
+    #secondKalimantanDisplay {
+        grid-row: 2 / span 1;
+        grid-column: 2 / span 1;
+    }
+
+    #thirdKalimantanDisplay {
+        grid-row: 3 / span 1;
+        grid-column: 1 / span 1;
+    }
+}
